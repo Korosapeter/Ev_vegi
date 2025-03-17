@@ -1,0 +1,85 @@
+.matches-container {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Meccsek kártya */
+  .match-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #f3f4f6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  /* Csapat szekció */
+  .team {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 30%;
+  }
+  
+  .team img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Meccs információk (időpont) */
+  .match-info {
+    text-align: center;
+    width: 40%;
+    font-size: 0.9rem;
+    color: #4b5563;
+  }
+  
+  /* Fogadási gombok */
+  .bet-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .bet-buttons button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  
+  .bet-buttons .home {
+    background: #16a34a;
+  }
+  
+  .bet-buttons .home:hover {
+    background: #15803d;
+  }
+  
+  .bet-buttons .draw {
+    background: #fbbf24;
+    color: black;
+  }
+  
+  .bet-buttons .draw:hover {
+    background: #f59e0b;
+  }
+  
+  .bet-buttons .away {
+    background: #15803d;
+  }
+  
+  .bet-buttons .away:hover {
+    background: #15803d;
+  }
+  
